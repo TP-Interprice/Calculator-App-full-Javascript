@@ -15,9 +15,14 @@ function clearElement() {
     display.value = 0
 }
 function removeElement() {
-    let clear = display.value.split('')
-    clear.pop()
-    display.value = clear.join('')
+    if(display.value.length == 1){
+        display.value = 0
+    }
+    else {
+        let clear = display.value.split('')
+        clear.pop()
+        display.value = clear.join('')
+    }    
 }
 for(let num of sign){
     let string = ''

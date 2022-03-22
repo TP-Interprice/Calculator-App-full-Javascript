@@ -68,8 +68,10 @@ td {
 	background-color: rgba(0,0,0,0.8);
 	color: white;
 	user-select: none;
-	transition: color 0.2s linear,
-				background-color 0.2s linear;
+	transition: color 0.2s linear, background-color 0.2s linear;
+}
+.x{
+	font-size: 26px;
 }
 
 td:hover {
